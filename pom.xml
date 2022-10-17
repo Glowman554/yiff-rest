@@ -31,5 +31,14 @@
 			<version>4.10.0</version>
 		</dependency>
 	</dependencies>
+	
+	
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Glowman554 Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/Glowman554/yiff-rest</url>
+		</repository>
+	</distributionManagement>
 
 </project>
