@@ -10,7 +10,7 @@ public class YiffData
 	@SuppressWarnings("unchecked")
 	@ReflexField(optional = true)
 	public ReflexCustomArray<YiffImage> images = ReflexCustomArray.from(() -> new YiffImage());
-	@ReflexField
+	@ReflexField(optional = true)
 	public String $schema;
 	@ReflexField
 	public boolean success;

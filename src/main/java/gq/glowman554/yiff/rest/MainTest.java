@@ -10,7 +10,7 @@ public class MainTest
 {
 	public static void main(String[] args) throws IllegalArgumentException, IllegalAccessException, JsonSyntaxException, IOException, InterruptedException
 	{
-		Reflex.setDebug(true);
+		// Reflex.setDebug(true);
 		for (int x = 0; x < 20; x++)
 		{
 			YiffImage[] images = Yiff.request();

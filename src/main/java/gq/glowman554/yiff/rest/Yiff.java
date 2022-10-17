@@ -28,10 +28,10 @@ public class Yiff
 					{
 						if (result.info != null)
 						{
-							System.out.println(result.info);
-							System.out.println(result.error);
+							// System.out.println(result.info);
+							// System.out.println(result.error);
 							
-							Thread.sleep(result.info.limit);
+							Thread.sleep(result.info.retryAfter * 1000);
 						}
 					}
 					else
